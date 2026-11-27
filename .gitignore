@@ -1,0 +1,4 @@
+.obj/
+main
+.clangd
+config.mk

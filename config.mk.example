@@ -1,0 +1,11 @@
+# Copy to config.mk (ignored by git) and adjust to your machine.
+
+# path to the capd-config script (not needed if it is in your PATH)
+CAPD_CONFIG = /path/to/capd/install/bin/capd-config
+
+# Apple Silicon with CAPD built for x86_64:
+# EXTRA_ARCH = -arch x86_64
+
+# only if MPFR/GMP are in a non-standard location:
+# EXTRA_CXXFLAGS = -I/path/to/deps/include
+# EXTRA_LDFLAGS  = -L/path/to/deps/lib
